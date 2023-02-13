@@ -106,18 +106,18 @@ ul.hr1 li {
     border-radius: 10px;
     padding: 3px; /* Поля вокруг текста */
     list-style: none;
-    width: 120px;
-    height: 25px;
+    width: 180px;
+    height: 40px;
     background-color: #2F80ED;
     color: white;
     display: inline-block;
     float: left;
+    text-align: center;
    }
 
    .apple
    {
     float: left;
-    margin-left: 10%;
    }
    .content1 ul li.apple
    {
@@ -128,6 +128,12 @@ ul.hr1 li {
     height: 25px;
     display: inline-block;
    }
+   .img1
+   {
+    margin-top: 5%;
+    padding-right:5%;
+    padding-left: 5%;
+   }
    .logo1{
     clear: both;
     width: 100%;
@@ -136,7 +142,95 @@ ul.hr1 li {
    .line
    {
     position: absolute;
-    border-bottom:1px solid #222;
+    border-bottom: 3px solid #eaf2fd;
+    height: 495px;
+    margin-left: 30%;
+    width: 600px;
+   }
+   .content2
+   {
+    float: left;
     height: 519px;
-    width: 50px;
+    width: 30%;
+    padding-left:8%;
+    padding-right:8%;
+    text-align: left;
+    padding-top: 30px;
+   }
+   .picture2{
+    float: left;
+    height: 519px;
+    width: 50%;
+    padding-top: 30px;
+}
+.hr2{
+    list-style: none;
+}
+.line2
+   {
+    position: absolute;
+    border-bottom: 3px solid #eaf2fd;
+    height: 508px;
+    margin-left: 30%;
+    width: 600px;
+   }
+   .hr3
+   {
+
+    box-sizing: border-box;
+    position: absolute;
+    width: 1200px;
+    height: 390px;
+    left: 120px;
+    top: 1462px;
+    border: 1px solid #c1d9fa;
+    border-radius: 5px;
+    text-align: center;
+
+   }
+   .line3
+   {
+    position: absolute;
+    border-bottom: 3px solid #eaf2fd;
+    height: 100px;
+    margin-left: 30%;
+    width: 600px;
+    margin-top: 513px;
+   }
+  .buybutton{
+    position: absolute;
+    width: 93px;
+    height: 45px;
+    background-color: #FFBD00;
+    border-radius: 5px;
+  }
+.content3{
+    margin-top: 713px;
+
+}
+
+.hr4
+   {
+    box-sizing: border-box;
+    position:absolute;
+    width: 1200px;
+    height: 200px;
+    left: 120px;
+    top: 2282px;
+    text-align: center;
+   }
+   .hr5
+   {
+    box-sizing: border-box;
+    position:absolute;
+    width: 760px;
+    height: 200px;
+    left: 340px;
+    top: 2582px;
+    text-align: center;
+   }
+   .text1
+   {
+    font-size: 30px;
+    font-weight:bold;
    }
